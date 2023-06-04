@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="RentACarDemo.View.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="../../Assets/Libraries/css/bootstrap.min.css" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-crimson">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Rent a Car GO 1.0</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Anasayfa.aspx">Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Hakkimizda.aspx">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Arabalar.aspx">Arabalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Kiralama.aspx">Kiralama</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Customer.aspx">Müşteriler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Owner.aspx">Araç Sahipleri</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <asp:ContentPlaceHolder ID="mybody" runat="server">
+    </asp:ContentPlaceHolder>
+
+</body>
+</html>
